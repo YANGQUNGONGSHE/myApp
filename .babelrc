@@ -1,0 +1,9 @@
+{
+  "presets": ["react-native"],
+  "plugins": [["import", { "libraryName": "antd-mobile-rn" }]],
+  "env": {
+    "production": {
+      "plugins": ["transform-remove-console"]
+    }
+  }
+}
